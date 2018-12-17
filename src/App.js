@@ -51,7 +51,7 @@ deleteTodo (index) {
            description={ todo.description }
            isCompleted={todo.isCompleted}
            toggleComplete={()=>this.toggleComplete(index)}
-           deleteTodo={()=> this.deleteTodo}
+           deleteTodo={()=> this.deleteTodo(index)}
             />
         )}
         </ul>
