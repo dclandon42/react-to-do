@@ -10,7 +10,7 @@ class App extends Component {
         {description: 'Walk the cat', isCompleted: true},
         {description: 'Throw the dishes away', isCompleted: false},
         {description: 'Buy new dishes', isCompleted: false}
-      ],
+      ], 
       newTodoDescription: ''
     };
 }
